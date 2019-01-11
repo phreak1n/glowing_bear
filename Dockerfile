@@ -1,6 +1,6 @@
 from alpine:latest
 
-RUN apk update && apk add \
+RUN apk add \
 	git \
 	python
 
