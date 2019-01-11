@@ -1,6 +1,6 @@
-from alpine:latest
+from ubuntu:latest
 
-RUN apk update && apk add \
+RUN apt -y update && apt -y install \
 	git \
 	python
 
